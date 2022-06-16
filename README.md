@@ -1,10 +1,10 @@
-# Sole&Ankle, Revisited — Module 5 workshop
+# Sole&Ankle, Revisited — Challenge 5
 
-In the Flexbox module, we built an e-commerce store:
+In the Flexbox challenge, we built an e-commerce store:
 
 ![A screenshot of the original Flexbox module workshop](./docs/original-desktop.png)
 
-In this workshop, we'll make this application responsive, so that it looks great and works well on phones and tablets:
+In this challenge, we'll make this application responsive, so that it looks great and works well on phones and tablets:
 
 ![A GIF showing how the design changes across viewport widths](./docs/resize-demo.gif)
 
@@ -26,7 +26,7 @@ We'll use a **desktop-first** approach for this process, and our breakpoints wil
 
 Before we start tweaking the UI, let's add some structure to make it easy for us to use media queries.
 
-It's up to you how you'd like to structure it! You can use the strategy discussed in [the “breakpoints” lesson](https://courses.joshwcomeau.com/css-for-js/05-responsive-css/07-breakpoints#managing-breakpoints), or you can use [styled-components' “theming” feature](https://styled-components.com/docs/advanced#theming).
+It's up to you how you'd like to structure it! You can use this strategy [styled-components' “theming” feature](https://styled-components.com/docs/advanced#theming).
 
 Whichever approach you choose, your breakpoints should be specified in rems (not pixels).
 
@@ -40,7 +40,7 @@ Our `SuperHeader` is removed, replaced with a decorative dark-gray line. The `He
 
 On mobile, a lot of the spacing gets tightened up.
 
-**Be sure to check your work on a real mobile device.** You can use ngrok, as described in [the “Mobile Testing” lesson](https://courses.joshwcomeau.com/css-for-js/05-responsive-css/03-mobile-testing).
+**Be sure to check your work on a real mobile device.**
 
 ## Exercise 3: Tweaks to our main view
 
@@ -87,7 +87,7 @@ Here's our goal:
 
 ![Same situation, except now the spacing between items stretches and squashes depending on window width, and when the window gets too small, the content overflows with a scrollbar spanning the header](./docs/french-nav-overflow-fixed.gif)
 
-**NOTE:** Your solution doesn't have to match this GIF _exactly_. Don't worry about picking the perfect numbers! You can use the [“Fluid Calculator” tool](https://courses.joshwcomeau.com/css-for-js/05-responsive-css/16-fluid-calculator) to get close enough
+**NOTE:** Your solution doesn't have to match this GIF _exactly_. Don't worry about picking the perfect numbers! 
 
 ## Exercise 6: Theming with CSS Variables
 
