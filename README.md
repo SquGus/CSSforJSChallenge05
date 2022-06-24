@@ -40,8 +40,6 @@ Our `SuperHeader` is removed, replaced with a decorative dark-gray line. The `He
 
 On mobile, a lot of the spacing gets tightened up.
 
-**Be sure to check your work on a real mobile device.**
-
 ## Exercise 3: Tweaks to our main view
 
 On portrait tablet, our left-hand column disappears.
